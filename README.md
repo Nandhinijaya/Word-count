@@ -25,8 +25,8 @@ calculate the sum of the words in file
 Print the number of words.
 
 ## PROGRAM:
+```
 
-'''
 Program to count the number of words in a file
 Developed by: E.NANDHINI
 Register Number: 212222100030
@@ -38,7 +38,7 @@ with open(fp,'r') as f:
     word=line.split()
     words+=len(word)
 print("Number of words:",words)
-
+```
 
 ### OUTPUT:
 
